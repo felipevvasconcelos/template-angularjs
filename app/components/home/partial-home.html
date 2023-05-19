@@ -1,0 +1,14 @@
+<!-- Full Width Image Header -->
+<header class="header-image" ng-controller="homeCtrl">
+  <div class="headline">
+    <div class="container">
+      <h1>{{header}}</h1>
+      <h2>{{subheading}}</h2>
+    </div>
+  </div>
+</header>
+<hr />
+<!-- Page Content -->
+<div class="container" ng-controller="homeCtrl">
+  <div ng-repeat="value in cartoes">{{value}}</div>
+</div>
